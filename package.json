@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "branchVersion": "0.1.0-SNAPSHOT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foo/foo.git"
+  },
+  "devDependencies": {
+    "connect": "^2.16.2",
+    "gulp": "^3.6.2",
+    "gulp-browserify": "^0.5.0",
+    "gulp-clean": "^0.2.4",
+    "gulp-concat": "^2.2.0",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-jshint": "^1.6.1",
+    "gulp-less": "^1.2.3",
+    "gulp-livereload": "^1.5.0",
+    "gulp-uglify": "^0.3.0",
+    "install": "^0.1.7",
+    "jshint-stylish": "^0.2.0",
+    "npm": "^1.4.10"
+  }
+}
