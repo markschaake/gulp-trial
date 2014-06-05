@@ -1,4 +1,6 @@
 var gulp = require('gulp');
+var gutil = require('gulp-util');
+var log = gutil.log;
 
 var paths = {
   scripts: 'app/**/*.js',
@@ -35,6 +37,8 @@ gulp.task('styles', function() {
 gulp.task('server', function(next) {
   var connect = require('connect'),
       server = connect();
+  var port = process.env.PORT || 4000;
+  log("Server will start on port: " + port);
   server.use(connect.static(paths.build)).listen(process.env.PORT || 4000, next);
 });
 
